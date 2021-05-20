@@ -32,7 +32,7 @@ section{
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 8px;
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
@@ -92,7 +92,7 @@ section .title::after{
 }
 .navbar .max-width{
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: space-between;
 }
 .navbar .logo a{
@@ -116,8 +116,6 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
-    margin: 10px;
-    right: -75%
 }
 .navbar .menu li a{
     display: block;

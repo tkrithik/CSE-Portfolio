@@ -80,11 +80,13 @@ section .title::after{
 /* navbar styling */
 .navbar{
     position: fixed;
-    width: 100%;
+    width: 150%;
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    height: 11%;
+    top: 0%;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -102,7 +104,7 @@ section .title::after{
     font-size: 35px;
     font-weight: 600;
     left: 6%;
-    top: 10%;
+    top: 20%;
     padding: 1px;
 }
 .navbar .logo a span{
@@ -122,7 +124,7 @@ section .title::after{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    margin: 10px;
+    margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
@@ -181,6 +183,7 @@ section .title::after{
 }
 .home .max-width{
     margin: auto 0 auto 30px;
+    margin-left: 8.5%;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -278,7 +281,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "What do I know?";
+    content: "My Experiences";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -319,6 +322,9 @@ section .title::after{
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
+}
+.skills .skills-content .text span{
+    color: #029DB2;
 }
 .skills .skills-content .right .line{
     height: 5px;
@@ -571,7 +577,7 @@ section .title::after{
         height: 100vh;
         width: 100%;
         left: -100%;
-        top: 0;
+        top: 10;
         background: #029DB2;
         text-align: center;
         padding-top: 80px;

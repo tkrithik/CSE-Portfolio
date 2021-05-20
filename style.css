@@ -85,8 +85,8 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    height: 10%;
-    top: 2%;
+    height: 11%;
+    top: 0%;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -322,6 +322,9 @@ section .title::after{
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
+}
+.skills .skills-content .text span{
+    color: #029DB2;
 }
 .skills .skills-content .right .line{
     height: 5px;

@@ -35,21 +35,21 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Goals", "Aims", "Passions", "Plans", "Desires", "Dreams"],
+        strings: ["Achievements", "Successes", "Projects", "Accomplishments"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Goals", "Aims", "Passions", "Plans", "Desires", "Dreams"],
+        strings: ["Achievements", "Successes", "Projects", "Accomplishments"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-3", {
-        strings: ["Goals", "Aims", "Passions", "Plans", "Desires", "Dreams"],
+        strings: ["Achievements", "Successes", "Projects", "Accomplishments"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
